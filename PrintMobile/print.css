@@ -2,7 +2,7 @@
     display: none;
 }
 body{
-	margin:0;
+	margin: .25in;
 	padding:0;
 	font-family:Arial,serif;
 	background-color: white;
@@ -81,10 +81,12 @@ body{
 
 #leftcolumn{
 	text-align:left;
+    width: 100%;
 }
 
 #rightcolumn{
 	text-align:left;
+    width: 100%;
 }
 
 #rightcolumn p
@@ -93,6 +95,7 @@ body{
     word-spacing: 105%;
     line-height:110%;
     margin:0;
+    width: 100%;
 }
 
 #footer{
@@ -192,3 +195,7 @@ h3
 }
 
 
+#leftcolumn a:link:after, #leftcolumn a:visited:after{
+    content:"("attr(href)")";
+    font-size: 90%;
+}
