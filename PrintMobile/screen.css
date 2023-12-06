@@ -21,7 +21,7 @@
 #container
 {
     width:900px;
-      margin:0;
+      margin:0 auto;
 }
 
 #masthead
@@ -42,14 +42,15 @@
 
 #leftcolumn
 {
-    width:100%;
+    width:600px;
+	float: left;
     
 }
 
 #rightcolumn
 {
-    width:100%;
-    
+    width:300px;
+    float: left;
 }
 
 #footer
